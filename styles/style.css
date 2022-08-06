@@ -83,3 +83,151 @@ main .card .card__menu ul li .active {
   text-decoration: underline;
   font-weight: 600;
 }
+main .card .card__body {
+  width: 67%;
+  height: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+main .card .card__body .card__selctions {
+  width: auto;
+  height: 130px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 30px;
+}
+main .card .card__body .card__selctions ul {
+  border-left: 1px solid rgb(110, 109, 109);
+  width: 100px;
+  height: 170px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-left: 45%;
+}
+main .card .card__body .card__selctions ul li {
+  list-style: none;
+  width: 100%;
+  margin-top: 10px;
+  margin-left: 20px;
+  font-size: 22px;
+}
+main .card .card__body .card__selctions ul::before {
+  content: "";
+  width: 2px;
+  background-color: #000;
+  position: absolute;
+  height: 30px;
+}
+main .card .card__body .card__text {
+  width: 50%;
+  margin-left: 60px;
+}
+main .card .card__body .card__text h1 {
+  margin-top: 20px;
+  font-size: 65px;
+}
+main .card .card__body .card__text p {
+  margin-top: 10px;
+  font-size: 15px;
+  width: 100%;
+  height: auto;
+  max-height: 65%;
+  overflow: hidden;
+  color: rgb(64, 62, 62);
+}
+main .card .card__body .card__text .buttons {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 0;
+}
+main .card .card__body .card__text .buttons button {
+  background-color: #2D2B2C;
+  color: #FFFFFF;
+  padding: 8px 18px;
+  border: none;
+  border-radius: 6px;
+}
+main .card .card__body .card__text .buttons .salary {
+  font-size: 22px;
+  font-weight: 600;
+  margin-left: 15px;
+}
+main .card .card__body .card__info {
+  margin-left: 5%;
+  width: 35%;
+  height: auto;
+  margin-top: 18%;
+}
+main .card .card__body .card__info h4 {
+  width: 100%;
+  margin: 10px 0;
+  color: #2D2B2C;
+  font-weight: 500;
+  font-size: 14px;
+}
+main .card .card__foot {
+  width: 100%;
+  height: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+main .card .card__foot .card__images {
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+main .card .card__foot .card__images .item {
+  width: auto;
+  height: 90%;
+  background-color: #FFFFFF;
+  border-radius: 15px;
+}
+main .card .card__foot .card__images .item img {
+  width: 100%;
+  height: 100%;
+}
+main .card .card__foot .card__watch {
+  width: 20%;
+  height: 40%;
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+main .card .card__foot .card__watch i {
+  font-size: 50px;
+  color: #2D2B2C;
+}
+main .card .card__foot .card__watch h5 {
+  width: 100%;
+  text-align: center;
+}

@@ -9,10 +9,6 @@
 main {
   width: 100%;
   height: 100vh;
-  max-height: 950px;
-  background-image: url("../img/bg-img.png");
-  background-size: cover;
-  background-position: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -22,47 +18,35 @@ main {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  background-image: url("../img/bg-img.png");
+  background-position: center;
 }
 main .card {
   width: 85%;
   height: 95%;
+  max-height: 950px;
+  position: relative;
   background: #EEEEEE;
   border: 4px solid #FFFFFF;
   -webkit-box-shadow: 0px 12px 54px rgba(78, 69, 62, 0.27);
           box-shadow: 0px 12px 54px rgba(78, 69, 62, 0.27);
   border-radius: 30px;
-  position: relative;
 }
 main .card .sneakers {
-  position: absolute;
-  margin-top: 70px;
-  right: -5%;
   height: 70%;
+  right: -5%;
+  position: absolute;
+  margin-top: 60px;
 }
-main .card .card__menu {
+main .card .menu {
   width: 100%;
   height: 70px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
-main .card .card__menu .card__logo {
-  height: 100%;
+main .card .menu .logo {
   width: 15%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-main .card .card__menu .card__logo img {
-  padding-left: 20px;
-  width: auto;
-  height: 60px;
-}
-main .card .card__menu ul {
-  width: auto;
   height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -70,16 +54,33 @@ main .card .card__menu ul {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
-main .card .card__menu ul li {
-  margin: 0 35px;
+main .card .menu .logo img {
+  width: auto;
+  height: 90%;
+}
+main .card .menu ul {
+  width: auto;
+  height: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+main .card .menu ul li {
   list-style: none;
+  margin: 0 35px;
 }
-main .card .card__menu ul li a {
-  color: #000;
+main .card .menu ul li a {
   text-decoration: none;
+  color: #2D2B2C;
 }
-main .card .card__menu ul li .active {
+main .card .menu ul li .active {
   text-decoration: underline;
   font-weight: 600;
 }
